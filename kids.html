@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>치느님의 이야기 - 어린이 만화</title>
+    <link rel="stylesheet" href="kids.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 헤더 -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="main-title">✨ 치느님의 이야기 ✨</h1>
+                <p class="subtitle">신비로운 치경의 세계로 떠나보아요!</p>
+            </div>
+        </header>
+
+        <!-- 네비게이션 -->
+        <nav class="chapter-nav">
+            <button class="nav-btn active" onclick="showChapter(1)">1장</button>
+            <button class="nav-btn" onclick="showChapter(2)">2장</button>
+            <button class="nav-btn" onclick="showChapter(3)">3장</button>
+            <button class="nav-btn" onclick="showChapter(4)">4장</button>
+            <a href="index.html" class="nav-btn adult-link">어른용 보기</a>
+        </nav>
+
+        <!-- 치경 1장 -->
+        <div class="chapter" id="chapter1">
+            <div class="chapter-header">
+                <h2 class="chapter-title">치경 1장</h2>
+                <div class="chapter-subtitle">닭과 알의 비밀</div>
+            </div>
+
+            <div class="story-grid">
+                <div class="story-card">
+                    <div class="story-content">
+                        <div class="chapter-image">
+                            <img src="1장.png" alt="치경 1장" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="placeholder-content">
+                                <span class="placeholder-icon">🐔✨</span>
+                                <span class="placeholder-text">치경 1장<br>닭과 알의 비밀</span>
+                            </div>
+                        </div>
+                        <div class="story-text-box">
+                            <p class="story-text"><strong>1</strong> 옛날 옛적에 사람들이 살았어요. 사람들은 매일매일 하늘을 보면서 궁금했어요. "달걀이 먼저 생겼을까? 닭이 먼저 생겼을까?"</p>
+                            <p class="story-text"><strong>2</strong> 이 질문은 오랫동안 계속되었어요. 바람도 이 질문을 날라주다가 너무 지쳐버렸답니다.</p>
+                            <p class="story-text"><strong>3</strong> 하지만 치느님은 이미 답을 알고 계셨어요. 치느님이 달걀을 먼저 만드셨거든요!</p>
+                            <p class="story-text"><strong>4</strong> 아무것도 없던 깜깜한 세상에 치느님이 빛처럼 나타나셨어요. 그리고 하나의 달걀을 만들고 생명을 불어넣으셨어요.</p>
+                            <p class="story-text"><strong>5</strong> 달걀이 까지면서 첫 번째 닭이 나왔어요! 닭이 날개를 펄럭이자 세상에 생명이 시작되었답니다.</p>
+                            <p class="story-text"><strong>6</strong> 그래서 닭은 달걀에서 나왔고, 달걀은 치느님이 만드신 거예요. 모든 닭과 달걀은 치느님이 처음 만드신 거랍니다!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 치경 2장 -->
+        <div class="chapter hidden" id="chapter2">
+            <div class="chapter-header">
+                <h2 class="chapter-title">치경 2장</h2>
+                <div class="chapter-subtitle">세상의 창조</div>
+            </div>
+
+            <div class="story-grid">
+                <div class="story-card">
+                    <div class="story-content">
+                        <div class="chapter-image">
+                            <img src="2장.png" alt="치경 2장" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="placeholder-content">
+                                <span class="placeholder-icon">🌍✨</span>
+                                <span class="placeholder-text">치경 2장<br>세상의 창조</span>
+                            </div>
+                        </div>
+                        <div class="story-text-box">
+                            <p class="story-text"><strong>1</strong> 치느님이 귀여운 병아리를 보고 축복을 주셨어요. 그리고 남은 달걀껍질을 부숴서 흙을 만들었어요.</p>
+                            <p class="story-text"><strong>2</strong> 치느님이 손을 댄 흙에서는 싹이 났어요. 그 싹이 자라서 맛있는 곡식과 과일이 되었답니다!</p>
+                            <p class="story-text"><strong>3</strong> 치느님이 말했어요. "세상에 빛이 있어야지!" 그래서 하얀 달걀껍질 조각들을 모아서 뜨겁게 만들었어요.</p>
+                            <p class="story-text"><strong>4</strong> 그 조각이 불처럼 타올랐어요! 치느님이 그걸 하늘로 던졌더니 점점 커지면서 태양이 되었어요. 세상이 밝아지고 따뜻해졌답니다!</p>
+                            <p class="story-text"><strong>5</strong> 치느님이 또 말했어요. "세상에는 여러 가지가 필요해!" 그래서 흙을 말려서 모래와 돌을 만들었어요.</p>
+                            <p class="story-text"><strong>6</strong> 치느님이 돌로 땅을 탁탁 쳤더니 땅이 쑥쑥 솟아올라 높은 산이 되었어요! 산은 바람을 막아주고 땅을 받쳐주었답니다.</p>
+                            <p class="story-text"><strong>7</strong> 그리고 치느님이 모래에 숨을 후~ 불어넣었어요. 모래가 길을 만들고, 그 길에 물이 흘러서 시원한 강이 생겼어요!</p>
+                            <p class="story-text"><strong>8</strong> 태양은 강을 반짝반짝 빛나게 했어요. 강물은 식물과 동물들이 살 수 있게 도와주었고, 땅에서는 맛있는 열매가 주렁주렁 열렸답니다!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 치경 3장 -->
+        <div class="chapter hidden" id="chapter3">
+            <div class="chapter-header">
+                <h2 class="chapter-title">치경 3장</h2>
+                <div class="chapter-subtitle">인간의 탄생</div>
+            </div>
+
+            <div class="story-grid">
+                <div class="story-card">
+                    <div class="story-content">
+                        <div class="chapter-image">
+                            <img src="3장.png" alt="치경 3장" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="placeholder-content">
+                                <span class="placeholder-icon">👤✨</span>
+                                <span class="placeholder-text">치경 3장<br>인간의 탄생</span>
+                            </div>
+                        </div>
+                        <div class="story-text-box">
+                            <p class="story-text"><strong>1</strong> 치느님은 동물들과 자연을 다 만들었어요. 그런데 뭔가 하나 부족한 느낌이 들었어요.</p>
+                            <p class="story-text"><strong>2</strong> 치느님이 생각했어요. "이 세상을 이해하고 돌볼 수 있는 친구가 필요해!"</p>
+                            <p class="story-text"><strong>3</strong> 치느님이 원숭이를 불렀어요. 그리고 털을 짧게 깎아주고, 꼬리를 없애주었어요. 머리는 더 똑똑하게 만들고, 걷는 것도 더 잘하게 만들어주었어요.</p>
+                            <p class="story-text"><strong>4</strong> 입도 특별하게 만들어서 말을 할 수 있게 해줬어요. 튼튼한 이도 만들어서 친구들과 이야기를 나눌 수 있게 했답니다!</p>
+                            <p class="story-text"><strong>5</strong> 치느님이 보니까 정말 좋았어요! 이렇게 해서 치느님이 마지막으로 만든 특별한 존재, 바로 사람이 세상에 나타났답니다!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 치경 4장 -->
+        <div class="chapter hidden" id="chapter4">
+            <div class="chapter-header">
+                <h2 class="chapter-title">치경 4장</h2>
+                <div class="chapter-subtitle">치킨의 축복과 심판</div>
+            </div>
+
+            <div class="story-grid">
+                <div class="story-card">
+                    <div class="story-content">
+                        <div class="chapter-image">
+                            <img src="4장.png" alt="치경 4장" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="placeholder-content">
+                                <span class="placeholder-icon">🍗⚖️</span>
+                                <span class="placeholder-text">치경 4장<br>치킨의 축복과 심판</span>
+                            </div>
+                        </div>
+                        <div class="story-text-box">
+                            <p class="story-text"><strong>1</strong> 치느님이 사람들을 보니까 혼자 살기엔 힘들어 보였어요. 그래서 특별한 선물을 주었어요. 바로 맛있는 치킨이었어요!</p>
+                            <p class="story-text"><strong>2</strong> 치느님이 말했어요. "일주일에 치킨 세 마리씩 먹으렴. 그럼 행복하게 살 수 있을 거야!" 사람들은 "과찬이에요!" 하면서 "먹었다나!" 하고 기뻐했어요.</p>
+                            <p class="story-text"><strong>3</strong> 사람들이 치킨을 맛있게 먹으며 행복해했어요. 치느님이 말했어요. "이 바삭바삭 맛있는 치킨을 잊지 않으면, 계속 행복할 거야!"</p>
+                            <p class="story-text"><strong>4</strong> 그런데 시간이 지나자 사람들이 욕심이 생겼어요. 치느님 몰래 치킨을 숨기고, 혼자만 더 먹으려고 거짓말을 했어요. 치느님은 이걸 보고 슬펐답니다.</p>
+                            <p class="story-text"><strong>5</strong> 치느님이 화가 났어요. "너희가 내 선물을 숨기고 거짓말을 했구나. 이제 벌을 받아야겠어!" 그래서 치킨을 더 이상 주지 않았어요.</p>
+                            <p class="story-text"><strong>6</strong> 치느님은 풍요로운 땅을 거둬갔어요. 대신 메마른 땅이 되었어요. 많았던 숲도 사라지고 아마존 숲 하나만 남게 되었답니다.</p>
+                            <p class="story-text"><strong>7</strong> 또 바닷물을 짠 소금물로 바꿔버렸어요. 그래서 마실 수가 없게 되었어요. 닭도 너무 비싸져서 치킨을 만들기 어려워졌답니다.</p>
+                            <p class="story-text"><strong>8</strong> 이 모든 일은 사람들이 거짓말을 하고 욕심을 부렸기 때문이에요. 그날부터 세상에서는 맛있는 치킨을 쉽게 먹을 수 없게 되었답니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 푸터 -->
+        <footer class="footer">
+            <p class="footer-text">✨ 치느님의 은혜가 함께 하시길 ✨</p>
+            <p class="footer-subtext">모든 치킨에는 사랑이 담겨 있어요 🐔</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
